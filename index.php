@@ -10,7 +10,7 @@ $partes_ruta=array_slice($partes_ruta,0);
 /* www/webGaw/*    */
 $ruta_elejida='vistas/404.php';
 
-if ($partes_ruta[0]=='webGaw') { /* compuevo si el indice 1 es correcto ,,,ubicacion array indice */
+if ($partes_ruta[0]=='pueba') { /* compuevo si el indice 1 es correcto ,,,ubicacion array indice */
     if (count($partes_ruta)==1) {  /* contar posisciones del array indice */
         $ruta_elejida="vistas/home.php";
     }else if (count($partes_ruta)==2) {
