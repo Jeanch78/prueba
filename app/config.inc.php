@@ -5,7 +5,7 @@ define('PASSWORD','');
 define('NOMBRE_BD','webgaw');
 
 //rutas web
-define("SERVIDOR","https://jeanch78.github.io/prueba/webGaw");  
+define("SERVIDOR","https://jeanch78.github.io/prueba");  
 define("RUTA_REGISTRO",SERVIDOR."/registro");
 define("RUTA_REGISTRO_CORRECTO",SERVIDOR."/registro-correcto");
 define("RUTA_LOGIN",SERVIDOR."/login");
